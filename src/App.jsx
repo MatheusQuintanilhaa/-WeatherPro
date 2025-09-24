@@ -111,7 +111,6 @@ function App() {
   };
 
   const API_KEY = import.meta.env.VITE_API_KEY;
-  console.log("API KEY:", import.meta.env.VITE_API_KEY);
   const BASE_URL = "https://api.openweathermap.org/data/2.5";
 
   // Função para buscar dados do clima atual
