@@ -213,9 +213,6 @@ function App() {
     fetchWeatherData(cityName);
   };
 
-  // Debug: Mostrar buscas recentes no console
-  console.log("Buscas recentes:", recentSearches);
-
   // Processar dados da previsão para mostrar apenas um por dia
   const getDailyForecast = () => {
     if (!forecastData) return [];
